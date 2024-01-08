@@ -2,10 +2,9 @@
 
 ## Overview
 
-Being an anime fan, finding good suggestions was a challenge. I crafted my own Anime Recommendation System using Kaggle's dataset, Python Flask for the backend, and HTML/CSS for the frontend. Personalized recommendations now at your fingertips!![2157453](https://github.com/RajShreyanshu28/AnimeRec/assets/155971459/2ce2f402-f837-4c7f-84f5-546257017ce9)
+Being an anime fan, finding good suggestions was a challenge. I crafted my own Anime Recommendation System using Kaggle's dataset, Python Flask for the backend, and HTML/CSS for the frontend. Personalized recommendations now at your fingertips, just write the name of one of your favourite anime and this will give you some recommendations!!
 
 ![Screenshot 2024-01-08 232049](https://github.com/RajShreyanshu28/AnimeRec/assets/155971459/93ca1ee0-9fc6-4dc6-8da5-da868ef06291)
-
 
 ## Features
 
