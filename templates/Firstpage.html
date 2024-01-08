@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <style>
+        body {
+            background-image: url("/static/demon.gif");
+            background-size: cover;
+
+            background-position: center center;
+            background-attachment: fixed;
+            background-position: bottom;
+        }
+
+        /* Additional styles for other elements if needed */
+        h1{
+            color: darkorange; /* Set text color to contrast with the background */
+            text-align: center;
+            background-color: black;
+            background-position-y: top;
+
+        }
+        .nameid{
+            text-align: right;
+            margin-inline-end: 220px;
+        } 
+        h2{
+            text-align-last: right ;
+            color: darkorange;
+            margin-inline-end: 150px;
+            text-decoration: underline darkorange;
+        }
+        h4{
+            text-align-last: right ;
+            color: darkorange;
+            margin-inline-end: 230px;
+            text-decoration: underline darkorange;
+        }
+        .output{
+            color: darkorange;
+            margin-left: 1000px;
+            background-color: black;
+            margin-right: 150px;
+            text-size-adjust: 32px;
+
+        }
+        .outputsec{            
+            margin-left: 1025px;
+            margin-right: 225px;
+            text-size-adjust: 32px;
+            background-color: darkorange;
+        }
+        .button{
+            color: black;
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <!-- <img src="/static/tvsg.gif" alt="Your Photo" width="1000" height="600"> -->
+
+    <h1 style="font-size: 80px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif "> ANIME RECOMMENDATION </h1>
+    <h2 style="font-size: 50px;"> Enter Your Anime </h2>
+    <form method="POST" action="/" class="nameid">
+        <input type="text" name="animename" enctype="multipart/form-data">
+        <input type="submit" value="Recommend" class="button">
+    </form>
+
+    <h4 style="color: darkorange; font-size: 30px;">Recommendations</h4>
+    
+    {% if recommended_movies %}
+        <ul class = "output">
+            {% for movie in recommended_movies %}
+                <li class="iii" style="font-size: x-large;">{{ movie }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p class="outputsec" style="font-size: 30px;"> Write the Japanese name. If still not working, then it does not exist in my knowledge.</p>
+    {% endif %}
+    
+</body>
+</html>
