@@ -12,13 +12,10 @@ Being an anime fan, finding good suggestions was a challenge. I crafted my own A
   - Users can create accounts and build profiles by providing information about their anime preferences, genres of interest, and previous viewing history.
 
 - Recommendation Engine:
-  - The core of the system is a recommendation engine that employs machine learning algorithms to analyze user preferences and suggest anime titles based on collaborative filtering, content-based filtering, or hybrid approaches.
+  - The core of the system is a recommendation engine that employs machine learning algorithms to analyze user preferences and suggest anime titles based on content-based filtering.
 
 - Anime Database Integration:
   - The application integrates with an extensive anime database to fetch and display relevant information about each recommended title, including synopsis, ratings, and genre tags.
-
-- User Feedback System:
-  - Users can provide feedback on recommended anime, allowing the system to continuously refine its suggestions and adapt to evolving user preferences.
 
 - Responsive UI Design:
   - The frontend is designed using HTML and CSS to ensure a seamless and responsive user interface. Users can easily navigate through the application, view recommendations, and manage their profiles.
