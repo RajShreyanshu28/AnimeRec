@@ -48,5 +48,4 @@ Anime enthusiasts often face the challenge of discovering new and interesting an
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/anime-recommendation-system.git
-   cd anime-recommendation-system
+   git clone https://github.com/RajShreyanshu28/AnimeRec
